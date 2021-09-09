@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 { 
+    text-transform: uppercase;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color:#666;
+}
+
+section.banner-principal {
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/jane.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
